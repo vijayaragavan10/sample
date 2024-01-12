@@ -1,0 +1,8 @@
+doctype html 
+html 
+    head 
+    body 
+        - const myStyle={"color":"red","background-color":"blue"}
+        div(style=myStyle) this is some text 
+        -const myAttributes={"src":",yphoto.png","alt":"this is your photo"}
+        img&attributes(myAttributes)

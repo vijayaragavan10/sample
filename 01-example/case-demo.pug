@@ -1,0 +1,14 @@
+doctype html 
+html 
+    head 
+        title case demo 
+    body 
+        h3 case-when demo 
+        - let orderstatus="pending"
+        case orderStatus 
+            when 'pending'
+                p your order is pending 
+            when 'delivered'
+                p your order has been delivered 
+            when 'completed'
+                p your order is completed 
